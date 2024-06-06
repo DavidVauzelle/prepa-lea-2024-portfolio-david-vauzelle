@@ -8,12 +8,20 @@
     <meta name="description" content="Projet Portfolio"> 
     <title>Page Mes Réalisations</title>
     <link rel="stylesheet" href="../style/reset.css">
-    <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="stylesheet" href="../style/nav-footer.css">
 </head>
 <body>
     <header>
         <!-- Pour récupérer la nav bar -->
-        <?php include '../navbar.php';?> 
+        <?php include 'navbar.php';?> 
     </header>
+
+    <main>
+
+    </main>
+
+    <!-- Pour récupérer le footer -->
+    <?php include 'footer.php';?>
+    
 </body>
 </html>
