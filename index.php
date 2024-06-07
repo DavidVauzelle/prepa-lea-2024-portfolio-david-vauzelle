@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./style/nav-footer.css">
 </head>
 <body>
-    <header>
+    <header class="hero-header">
         <!-- <nav class="navbar">
             <a href="index.php#accueil">Accueil</a>
                 <div class="liens-navbar">
@@ -25,13 +25,16 @@
         <!-- Pour récupérer la nav bar -->
         <?php include './pages/navbar.php';?>
 
-        <div>
-            <h1>David Vauzelle, Futur développeur web / web mobile</h1>
+        <div class="container-hero-header">
+            <div class="contenu-hero-header">
+                <div class="titre-page-accueil">
+                    <h1 class="h1-page-accueil">&lt;h1&gt; David Vauzelle, futur développeur web &lt;&#47;h1&gt;</h1>
+                </div>
+                <div class="photo-profil">
+                    <img src="./images/photo-david.jpg" alt="Une photo de profil de David">
+                </div>    
+            </div>
         </div>
-        <div>
-            <img src="./images/photo-david.jpg" alt="Une photo de profil de David">
-        </div>
-
     </header>
 
     <main>

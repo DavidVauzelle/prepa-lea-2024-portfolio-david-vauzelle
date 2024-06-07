@@ -1,11 +1,17 @@
 .navbar, .footer-portfolio {
-    background-color: #333;
+    /* background-color: #333; */
     display: flex;
     align-items: center;
 }
 
+.footer-portfolio {
+    background-color: #333;
+}
+
 .navbar {
+    width: 100%;
     justify-content: space-between;
+    position: fixed;
 }
 
 .liens-navbar, .liens-footer {
@@ -26,12 +32,16 @@
 
 nav a, footer a, footer p {
     /* display: block; */
-    color: white;
+    color: black;
     padding: 15px;
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
+}
+
+footer a, footer p {
+    color: white;
 }
 
 nav a:hover{

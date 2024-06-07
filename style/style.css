@@ -3,7 +3,59 @@
 }
 
 body {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     margin: auto 0;
+}
+
+.hero-header {
+    display: flex;
+    /* flex-direction: column; */
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    justify-content: center;
+}
+
+.container-hero-header {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+
+.contenu-hero-header {
+    display: flex;
+}
+
+.titre-page-accueil, .photo-profil {
+    width: 50%;
+}
+
+.titre-page-accueil {
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    margin: 25px;
+}
+
+.h1-page-accueil {
+    font-size: 25px;
+    word-wrap: normal;
+}
+
+.photo-profil {
+    margin: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.photo-profil img {
+    width: 100%;
+    height: 100%;
+    transition:2s;
+}   
+
+img:hover {
+    transform: scale(1.10);
 }
