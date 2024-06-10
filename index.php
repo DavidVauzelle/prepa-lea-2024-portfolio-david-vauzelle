@@ -23,12 +23,13 @@
         </nav>     -->
 
         <!-- Pour récupérer la nav bar -->
-        <?php include './pages/navbar.php';?>
+        <?php include 'navbar.php';?>
 
         <div class="container-hero-header">
             <div class="contenu-hero-header">
                 <div class="titre-page-accueil">
-                    <h1 class="h1-page-accueil">&lt;h1&gt; David Vauzelle, futur développeur web &lt;&#47;h1&gt;</h1>
+                    <h1 class="h1-page-accueil">&lt;h1&gt; David Vauzelle,</h1>
+                    <span class="span-header"> futur développeur web &lt;&#47;h1&gt;</span>
                 </div>
                 <div class="photo-profil">
                     <img src="./images/photo-david.jpg" alt="Une photo de profil de David">
@@ -38,11 +39,11 @@
     </header>
 
     <main>
-
+    
     </main>
 
     <!-- Pour récupérer le footer -->
-    <?php include './pages/footer.php';?>
+    <?php include 'footer.php';?>
     
 </body>
 </html>

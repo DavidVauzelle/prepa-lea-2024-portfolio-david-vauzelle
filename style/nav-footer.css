@@ -1,5 +1,5 @@
 .navbar, .footer-portfolio {
-    /* background-color: #333; */
+    background-color: #333;
     display: flex;
     align-items: center;
 }
@@ -30,19 +30,19 @@
     margin-left: auto; 
 }
 
-nav a, footer a, footer p {
+.navbar a, .footer-portfolio a, .footer-portfolio p {
     /* display: block; */
-    color: black;
     padding: 15px;
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
+    color: #ffffff;
 }
 
-footer a, footer p {
+/* .navbar a, .footer-portfolio a, .footer-portfolio p {
     color: white;
-}
+} */
 
 nav a:hover{
     background-color: #ddd;

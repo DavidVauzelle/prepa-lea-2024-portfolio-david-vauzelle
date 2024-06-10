@@ -39,9 +39,8 @@ body {
     margin: 25px;
 }
 
-.h1-page-accueil {
-    font-size: 25px;
-    word-wrap: normal;
+.h1-page-accueil, .span-header {
+    font-size: 35px;
 }
 
 .photo-profil {

@@ -1,5 +1,5 @@
 <?php
-include 'connexion.php';
+include './administration/connexion.php';
 
 // $_POST est t'il vide ?
 if (isset($_POST['envoyer'])) {
@@ -35,14 +35,14 @@ if (isset($_POST['envoyer'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projet Portfolio"> 
     <title>Page Contact</title>
-    <link rel="stylesheet" href="../style/reset.css">
-    <link rel="stylesheet" href="../style/contact.css">
-    <link rel="stylesheet" href="../style/nav-footer.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/nav-footer.css">
 </head>
 <body>
     <header>
         <!-- Pour récupérer la nav bar -->
-        <?php include 'navbar.php';?>    
+        <?php include './navbar.php';?>    
     </header>
 
     <main>   
@@ -80,6 +80,6 @@ if (isset($_POST['envoyer'])) {
     </main>
 
     <!-- Pour récupérer le footer -->
-    <?php include 'footer.php';?>
+    <?php include './footer.php';?>
 </body>
 </html>
