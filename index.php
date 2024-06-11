@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -8,38 +6,44 @@
     <meta name="description" content="Projet Portfolio"> 
     <title>Portfolio David Vauzelle</title>
     <link rel="stylesheet" href="./style/reset.css">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/nav-footer.css">
 </head>
 <body>
     <header class="hero-header">
-        <!-- <nav class="navbar">
-            <a href="index.php#accueil">Accueil</a>
-                <div class="liens-navbar">
-                    <a href="./pages/mon-cv.php">Mon CV</a>
-                    <a href="./pages/realisations.php">Mes Réalisations</a>
-                </div>
-            <a href="./pages/contact.php">Contact</a>
-        </nav>     -->
-
         <!-- Pour récupérer la nav bar -->
         <?php include 'navbar.php';?>
 
         <div class="container-hero-header">
-            <div class="contenu-hero-header">
-                <div class="titre-page-accueil">
-                    <h1 class="h1-page-accueil">&lt;h1&gt; David Vauzelle,</h1>
-                    <span class="span-header"> futur développeur web &lt;&#47;h1&gt;</span>
+            <h1 class="h1-hero-header">
+                <div class="titre-haut-hero-header">
+                    <span class="span-titre-header">&lt;h1&gt;</span>
+                    <span class="texte-prenom-nom">David Vauzelle</span>
                 </div>
-                <div class="photo-profil">
-                    <img src="./images/photo-david.jpg" alt="Une photo de profil de David">
-                </div>    
-            </div>
+                <div class="titre-bas-hero-header">
+                    <span class="texte-metier">Futur Développeur Web</span>
+                    <span class="span-titre-header">&lt;&#47;h1&gt</span>
+                </div>
+            </h1>
         </div>
     </header>
 
     <main>
-    
+        <section>
+            <h2>A propos de Moi !</h2>
+            <div class="photo-profil">
+                <img src="./images/photo-david.jpg" alt="Une photo de profil de David">
+            </div>  
+        </section>
+
+        <section>
+            <h2>Compétences</h2>
+        </section>
+
+        <section>
+            <h2>Formations</h2>
+        </section>
     </main>
 
     <!-- Pour récupérer le footer -->

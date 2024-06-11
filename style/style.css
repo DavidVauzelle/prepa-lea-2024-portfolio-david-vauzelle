@@ -1,5 +1,6 @@
 *::before, *::after {
     box-sizing: border-box;
+    /* max-width: 1200px; */
 }
 
 body {
@@ -10,9 +11,8 @@ body {
 
 .hero-header {
     display: flex;
-    /* flex-direction: column; */
     height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     background-color: beige;
     justify-content: center;
 }
@@ -24,23 +24,33 @@ body {
     width: 100%;
 }
 
-.contenu-hero-header {
+.h1-hero-header {
+    padding: 25px;
+}
+
+.texte-prenom-nom {
+    font-size: 125px;
+    padding-bottom: 25px;
+}
+
+.texte-metier {
+    font-size: 85px;
+}
+
+.titre-haut-hero-header, .titre-bas-hero-header {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
-.titre-page-accueil, .photo-profil {
-    width: 50%;
-}
-
-.titre-page-accueil {
-    align-self: center;
+.span-titre-header {
+    font-size: 65px;
     align-content: center;
-    text-align: center;
-    margin: 25px;
 }
 
-.h1-page-accueil, .span-header {
-    font-size: 35px;
+.texte-prenom-nom, .texte-metier {
+    padding-left: 85px;
 }
 
 .photo-profil {

@@ -13,7 +13,7 @@
 <body>
     <header>
         <!-- Pour récupérer la nav bar -->
-        <?php include './navbar.php';?> 
+        <?php include 'navbar.php';?> 
     </header>
 
     <main>
@@ -21,7 +21,7 @@
     </main>
 
     <!-- Pour récupérer le footer -->
-    <?php include './footer.php';?>
+    <?php include 'footer.php';?>
     
 </body>
 </html>
