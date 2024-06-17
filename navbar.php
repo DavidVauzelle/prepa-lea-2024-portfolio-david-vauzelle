@@ -4,5 +4,5 @@
             <a href="./mon-cv.php">Mon CV</a>
             <a href="./realisations.php">Mes Réalisations</a>
         </div>
-        <a href="./contact.php">Contact</a>
+    <a href="./contact.php">Contact</a>
 </nav>

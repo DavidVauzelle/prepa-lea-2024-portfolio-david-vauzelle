@@ -4,10 +4,6 @@
     align-items: center;
 }
 
-.footer-portfolio {
-    background-color: #333;
-}
-
 .navbar {
     width: 100%;
     justify-content: space-between;
@@ -32,26 +28,35 @@
 
 .navbar a, .footer-portfolio a, .footer-portfolio span, .informations-footer {
     /* display: block; */
-    padding: 15px;
     text-decoration: none;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     color: #ffffff;
 }
 
-.informations-footer {
+.navbar a, footer a {
+    padding: 15px;
+}
+
+.informations-footer, .coordonnees-footer span {
+    padding: 0 15px 15px;
+}
+
+.coordonnees-footer {
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+}
 
-nav a:hover{
+nav a:hover, footer a:hover{
     background-color: #ddd;
     color: black;
 }
 
 footer {
     height: auto;
+    width: 100%;
 }
 
 .footer-portfolio {
@@ -59,15 +64,10 @@ footer {
     justify-content: center;
 }
 
-.icone-footer {
+.icones-footer {
     height: 32px;
     width: 32px;
     object-fit: cover;
-}
-
-footer a:hover{
-    background-color: #ddd;
-    color: black;
 }
 
 /* Responsive pour Tablettes */

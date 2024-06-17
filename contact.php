@@ -20,7 +20,7 @@ if (isset($_POST['envoyer'])) {
     // Rediriger vers la page index lorsque le formulaire est envoyé avec succès
     // Vérifier si la requête a réussi
     if ($resultat) {
-        header('Location: ../index.php#accueil');
+        header('Location: ./index.php#accueil');
     } else {
         echo "Erreur d'insertion des données dans la base de données" . mysqli_error($connexion);
     }
