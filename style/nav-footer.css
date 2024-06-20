@@ -10,10 +10,16 @@
     position: fixed;
 }
 
-.liens-navbar, .liens-footer {
+.contenu-navbar {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    gap: 15px;
+}
+
+.contenu-navbar {
+    display: flex;
+    justify-content: center;    
 }
 
 .navbar a:first-child {
@@ -24,6 +30,12 @@
 .navbar a:last-child {
     /* Pour placer le DERNIER lien à droite en prenant tout l'espace disponible */
     margin-left: auto; 
+}
+
+.liens-navbar, .liens-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .navbar a, .footer-portfolio a, .footer-portfolio span, .informations-footer {

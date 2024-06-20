@@ -4,12 +4,10 @@
 
 body {
     height: 100vh;
-    /* margin: auto 0; */
-    /* max-width: 1200px; */
 }
 
-.contenu-hero-header {
-    max-width: 1200px;
+.container-hero-header {
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -21,11 +19,12 @@ body {
     justify-content: center;
 }
 
-.container-hero-header {
+.contenu-hero-header {
     display: flex;
     justify-content: center;
     align-self: center;
     width: 100%;
+    padding: 105px 50px 50px;
 }
 
 .h1-hero-header {

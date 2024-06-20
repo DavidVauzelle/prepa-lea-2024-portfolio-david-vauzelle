@@ -1,0 +1,105 @@
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+/* .container-cv {
+    background-color: beige;
+} */
+
+.bloc-1-cv, .bloc-2-cv, .bloc-3-cv, .bloc-4-cv, .bloc-5-cv {
+    max-width: 1200px;
+    /* width: 100%; */
+    margin: 0 auto;
+    /* background-color: beige;
+    border-radius: 20px; */
+}
+
+.bloc-1-cv {
+    padding: 105px 50px 50px;
+}
+
+.titre-principal-cv {
+    text-align: center;
+}
+
+.titre-haut-cv, .titre-bas-cv {
+    padding: 50px;
+}
+
+.titre-haut-cv {
+    font-size: 100px;
+}
+
+.titre-bas-cv {
+    font-size: 75px;
+}
+
+.contenu-2-presentation-cv {
+    display: flex;
+    justify-content: center;
+    max-height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo-profil {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+img:hover {
+    transform: scale(1.10);
+    transition:2s;
+}
+
+.bloc-texte-presentation-cv {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.texte-presentation-cv {
+    font-size: 20px;
+}
+
+.span-texte-presentation-cv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-cv {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-2-cv, .bloc-4-cv, .bloc-5-cv {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc-1-cv, .competences, 
+.competences-transversales, .experiences, 
+.savoirs-etre, .scolaire, .loisirs, .coordonnees {
+    width: 50%;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}

@@ -7,16 +7,15 @@
     <title>Portfolio David Vauzelle</title>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/nav-footer.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <header class="hero-header">
-        <div class="contenu-hero-header">
-            <!-- Pour récupérer la nav bar -->
-            <?php include 'navbar.php';?>
-
-            <div class="container-hero-header">
+        <!-- Pour récupérer la nav bar -->
+         <?php include 'navbar.php';?>
+        <div class="container-hero-header">
+            <div class="contenu-hero-header">
                 <h1 class="h1-hero-header">
                     <div class="titre-haut-hero-header">
                         <span class="span-titre-header">&lt;h1&gt;</span>
