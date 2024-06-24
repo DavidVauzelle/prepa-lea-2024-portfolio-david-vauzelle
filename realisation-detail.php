@@ -33,25 +33,22 @@
 
             // Si résultat dans le tableau 0, on stock les données du tableau dans une variable
             if (isset($resultat[0])) {
-                $contenuAccueil = $resultat[0];
+                $contenuDetail = $resultat[0];
             }
 
         ?>
         <section>
             <div>
-                <h1>Mes derniers projets</h1>
-                <?php if (isset($contenuAccueil)) : ?>
+                <?php if (isset($contenuDetail)) : ?>
                     
-                        <?php foreach($resultat as $contenuAccueil) : ?>
+                        <?php foreach($resultat as $contenuDetail) : ?>
                             <section>
                                 <?php if (isset($contenuAccueil[0])) : ?>
                                     <article>
-                                        <h2><?php echo $contenuAccueil[1]; ?></h2>   
-                                        <p><?php echo $contenuAccueil[2]; ?></p>
-                                        <img src="<?php echo $contenuAccueil[4]; ?>" 
-                                        alt="<?php echo $contenuAccueil[5]; ?>">
-                                        <a href="./administration/realisation-detail.php?id=<?php echo $contenuAccueil[0]; ?>">Détail Réalisation</a>
-                                        <a href="./administration/realisation-liste.php">Admin</a>
+                                        <h2><?php echo $contenuDetail[1]; ?></h2>   
+                                        <p><?php echo $contenuDetail[2]; ?></p>
+                                        <img src="<?php echo $contenuDetail[4]; ?>" 
+                                        alt="<?php echo $contenuDetail[5]; ?>">
                                     </article>
                                 <?php endif; ?>
                             </section>

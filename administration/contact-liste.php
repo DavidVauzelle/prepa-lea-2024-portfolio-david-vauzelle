@@ -20,7 +20,7 @@
                     <a href="../mon-cv.php">Mon CV</a>
                     <a href="../realisations.php">Mes Réalisations</a>
                 </div>
-            <a href="contacts.php">Contacts</a>
+            <a href="../contact.php">Contacts</a>
         </nav>
     </header>
 
