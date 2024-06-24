@@ -1,3 +1,9 @@
+<?php
+
+    // Connexion à la bdd
+    include './administration/connexion.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,8 +21,22 @@
     </header>
 
     <main>
-        <?php include './administration/index.php'; ?>
+        <?php
+            
+            // Récupération des projets pour les afficher sur la page d'accueil
+            $sql = "SELECT * FROM `projets`";
+            $resultat = mysqli_query($connexion, $sql);
 
+            // fetch_all --> permet de stocker les données de la requête dans un tableau
+            $resultat = $resultat->fetch_all();
+            // print_r($resultat);
+
+            // Si résultat dans le tableau 0, on stock les données du tableau dans une variable
+            if (isset($resultat[0])) {
+                $contenuAccueil = $resultat[0];
+            }
+
+        ?>
         <section>
             <div>
                 <h1>Mes derniers projets</h1>
@@ -36,24 +56,6 @@
                         <?php endforeach; ?>
                         
                 <?php endif; ?>          
-
-                <!-- echo '<div>';
-                //     foreach($resultat as $contenuAccueil) { 
-                //         echo '<div>';
-                //             echo '<img src='. $contenuAccueil['url'] . ' alt="' . $contenuAccueil['alt'] . '"><br>';
-                //         echo '</div>';
-
-                //         echo '<div>';
-                //             echo '<img src='. $contenuAccueil['url'] . ' alt="' . $contenuAccueil['alt'] . '"><br>';
-                //         echo '</div>';
-                        
-                //         echo '<div>';
-                //             echo '<img src='. $contenuAccueil['url'] . ' alt="' . $contenuAccueil['alt'] . '"><br>';
-                //         echo '</div>';
-                //     }
-                //     echo '</div>';
-                 
-                } -->
             </div>
         </section>  
     </main>

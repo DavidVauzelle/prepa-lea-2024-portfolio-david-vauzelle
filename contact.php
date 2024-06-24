@@ -74,6 +74,7 @@ if (isset($_POST['envoyer'])) {
                 <div class="button-contact">
                     <input class="input-button-formulaire" type="submit" name="envoyer" value="Envoyer">
                     <input class="input-button-formulaire" type="reset" value="Réinitialiser">
+                    <a href="./administration/contact-liste.php">Admin</href=>
                 </div>
             </form>        
         </div>   
