@@ -22,20 +22,20 @@
                 <h1>Mes derniers projets</h1>
                 <?php if (isset($contenuAccueil)) : ?>
                     
-                        <?php foreach($resultat as $contenuAccueil) ?>
+                        <?php foreach($resultat as $contenuAccueil) : ?>
                             <section>
-                                <?php if (isset($contenuAccueil[0])) ?>
-                                <article>
-                                    <h2><?php $contenuAccueil[1] ?></h2>   
-                                    <p><?php $contenuAccueil[2] ?></p>
-                                    <img src="<?php $contenuAccueil[4] ?>" 
-                                    alt="<?php $contenuAccueil[5] ?>">
-                                </article>
+                                <?php if (isset($contenuAccueil[0])) : ?>
+                                    <article>
+                                        <h2><?php echo $contenuAccueil[1]; ?></h2>   
+                                        <p><?php echo $contenuAccueil[2]; ?></p>
+                                        <img src="<?php echo $contenuAccueil[4]; ?>" 
+                                        alt="<?php echo $contenuAccueil[5]; ?>">
+                                    </article>
+                                <?php endif; ?>
                             </section>
-                        <?php endif; ?>
-    
-
-
+                        <?php endforeach; ?>
+                        
+                <?php endif; ?>          
 
                 <!-- echo '<div>';
                 //     foreach($resultat as $contenuAccueil) { 
