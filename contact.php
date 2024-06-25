@@ -14,7 +14,7 @@ if (isset($_POST['envoyer'])) {
     if (empty($nom) || empty($email) || empty($telephone) || empty($message)) {
         echo 'Le formulaire n\'est pas saisi correctement';
     } else {
-        $sql = "INSERT INTO contacts (nom, email, telephone, message) VALUES ('$nom', '$email', '$telephone', '$message')";
+        $sql = "INSERT INTO `contacts` (`nom`, `email`, `telephone`, `message`) VALUES ('$nom', '$email', '$telephone', '$message')";
         $resultat = mysqli_query($connexion, $sql);  
     }
     // Rediriger vers la page index lorsque le formulaire est envoyé avec succès
