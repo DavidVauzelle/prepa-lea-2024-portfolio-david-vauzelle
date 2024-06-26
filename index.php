@@ -22,7 +22,7 @@
                         <span class="texte-prenom-nom">David Vauzelle</span>
                     </div>
                     <div class="titre-bas-hero-header">
-                        <span class="texte-metier">Futur Développeur Full Stack</span>
+                        <span class="texte-metier">Développeur Full Stack</span>
                         <span class="span-titre-header">&lt;&#47;h1&gt</span>
                     </div>
                 </h1>

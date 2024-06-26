@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
     // Connexion à la bdd
     include 'connexion.php';
@@ -20,5 +20,5 @@
     }
 
 ?>
-   
+    -->
 

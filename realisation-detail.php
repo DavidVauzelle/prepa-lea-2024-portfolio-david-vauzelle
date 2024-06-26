@@ -13,47 +13,49 @@
     <title>Page Mes Réalisations</title>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/nav-footer.css">
+    <link rel="stylesheet" href="./style/projets.css">
 </head>
 <body>
-    <header>
+    <header >
         <!-- Pour récupérer la nav bar -->
-        <?php include 'navbar.php';?> 
+        <?php 
+            include 'navbar.php';
+        ?> 
     </header>
 
     <main>
         <?php
+
+            if (isset($_GET['id'])) {
+                $id = $_GET['id'];
             
-            // Récupération des projets pour les afficher sur la page d'accueil
-            $sql = "SELECT * FROM `projets`";
-            $resultat = mysqli_query($connexion, $sql);
+                // Récupération des projets pour les afficher sur la page d'accueil
+                $sql = "SELECT * FROM projets WHERE id=$id";
+                $resultat = mysqli_query($connexion, $sql);
+                
+                // fetch_all --> permet de stocker les données de la requête dans un tableau
+                // $projets = $resultat->fetch_all(MYSQLI_ASSOC);
 
-            // fetch_all --> permet de stocker les données de la requête dans un tableau
-            $resultat = $resultat->fetch_all();
-            // print_r($resultat);
+                $projet = $resultat->fetch_assoc();
 
-            // Si résultat dans le tableau 0, on stock les données du tableau dans une variable
-            if (isset($resultat[0])) {
-                $contenuDetail = $resultat[0];
+                // echo '<pre>';
+                // print_r($projet);
+                // echo '</pre>';
+
             }
 
         ?>
         <section>
             <div>
-                <?php if (isset($contenuDetail)) : ?>
-                    
-                        <?php foreach($resultat as $contenuDetail) : ?>
-                            <section>
-                                <?php if (isset($contenuAccueil[0])) : ?>
-                                    <article>
-                                        <h2><?php echo $contenuDetail[1]; ?></h2>   
-                                        <p><?php echo $contenuDetail[2]; ?></p>
-                                        <img src="<?php echo $contenuDetail[4]; ?>" 
-                                        alt="<?php echo $contenuDetail[5]; ?>">
-                                    </article>
-                                <?php endif; ?>
-                            </section>
-                        <?php endforeach; ?>
-                        
+                <?php if (isset($projet)) : ?>
+                    <section>
+                        <article>
+                            <h2><?php echo $projet['titre']; ?></h2>   
+                            <p><?php echo $projet['description-detail']; ?></p>
+                            <img src="<?php echo $projet['image']; ?>" 
+                            alt="<?php echo $projet['alt']; ?>">
+                        </article>
+                    </section>
                 <?php endif; ?>          
             </div>
         </section>  
