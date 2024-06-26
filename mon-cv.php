@@ -21,25 +21,27 @@
                 <section class="presentation-cv">
                     <div class="contenu-1-presentation-cv">
                         <h1 class="titre-principal-cv">
-                        <div>
-                            <span class="titre-haut-cv">David Vauzelle</span>
-                        </div>
-                        <div class="titre-bas-cv">
-                            <span class="texte-metier">Développeur Full Stack</span>
-                        </div>
+                            <div>
+                                <span class="titre-haut-cv">David Vauzelle</span>
+                            </div>
+                            <div class="titre-bas-cv">
+                                <span class="texte-metier">Développeur Full Stack</span>
+                            </div>
+                        </h1>
                     </div>
-                    </h1>
+                    
                     <div class="contenu-2-presentation-cv">
                         <div class="photo-profil">
                             <img src="./images/photo-david.jpg" alt="Une photo de profil de David">
                         </div>
                         <div class="bloc-texte-presentation-cv">
                             <div class="texte-presentation-cv">
-                                <span class="span-texte-presentation-cv">Passionné d'informatique et de développement,</span> 
-                                <span class="span-texte-presentation-cv">je suis actuellement en reconversion professionnelle et</span>
-                                <span class="span-texte-presentation-cv">à la recherche d'une alternance du 2 septembre 2024 au 12 septembre 2025,</span> 
-                                <span class="span-texte-presentation-cv">afin de préparer le titre professionnel RNCP37674 "Développeur Web / Web Mobile".</span>
+                                <p class="p-presentation-cv">Passionné d'informatique et de développement,</p> 
+                                <p class="p-presentation-cv">je suis actuellement en reconversion professionnelle et</p>
+                                <p class="p-presentation-cv">à la recherche d'une alternance du 2 septembre 2024 au 12 septembre 2025,</p> 
+                                <p class="p-presentation-cv">afin de préparer le titre professionnel RNCP37674 "Développeur Web / Web Mobile".</p>
                             </div>
+                            <a class="btn" href="documentation/cv-david-vauzelle.pdf" target="_blank">Télécharger mon CV</a>
                         </div>                    
                     </div> 
                 </section>
@@ -80,38 +82,38 @@
                         <h3>DEPUIS LE 18 DECEMBRE 2023</h3>
                         <div>
                             <P>
-                                Pré-qualification Développeur Web / Web Mobile à <span>l'Ecole Atypique.</span>
-                                Initiation au HTML5 / CSS3 / JS / PHP / GitHub...
+                                Pré-qualification Développeur Web / Web Mobile à <span span-contenu-cv>l'Ecole Atypique.</span>
                             </P>
+                            <p>Initiation au HTML5 / CSS3 / JS / PHP / GitHub...</p>
                         </div>
                         <h3>DU 4 JUILLET AU 30 NOVEMBRE 2023</h3>
                         <div>
                             <P>
-                                Formation Intégrateur Web avec <span>OpenClassrooms.</span>
-                                Initiation au HTML5 / CSS3.
+                                Formation Intégrateur Web avec <span span-contenu-cv>OpenClassrooms.</span>
                             </P>
+                            <p>Initiation au HTML5 / CSS3.</p>
                         </div>
                         <h3>DU 29 MARS 2018 AU 5 FEVRIER 2019</h3>
                         <div>
                             <P>
-                                Chargé de Clientèle à <span>AQUITEL.</span>
+                                Chargé de Clientèle à <span span-contenu-cv>AQUITEL.</span>
                             </P>
                         </div>
                         <h3>DU 30 NOVEMBRE 2016 AU 30 JUIN 2017</h3>
                         <div>
                             <P>
-                                Chargé de Clientèle à <span>ARMATIS LC.</span>
-                                Services Déclaration de Sinitre Habitation et Bris de Glace Auto.
+                                Chargé de Clientèle à <span span-contenu-cv>ARMATIS LC.</span>
                             </P>
+                            <p>Services Déclaration de Sinitre Habitation et Bris de Glace Auto.</p>
                         </div>
                         <h3>
                             DU 19 JUIN 2014 AU 30 NOVEMBRE 2015
                         </h3>
                         <div>
                             <P>
-                                Chargé de Clientèle à <span>Laser Contact.</span>
-                                Activités EDF Particuliers et Professionnels.
+                                Chargé de Clientèle à <span span-contenu-cv>Laser Contact.</span>
                             </P>
+                            <p>Activités EDF Particuliers et Professionnels.</p>          
                         </div>
                     </div>
                 </section>
@@ -133,10 +135,10 @@
                 <section class="scolaire">
                     <h2>SCOLAIRE</h2>
                     <ul>
-                        <li><span>2011-2013 : </span>BTS SIO Option SISR.</li>
-                        <li><span>2010-2011 : </span>1ère année de BTS Informatique.</li>
-                        <li><span>Juin 2010 : </span>Obtention du BAC Pro ELEEC.</li>
-                        <li><span>Juin 2008 : </span>Obtention du BEP Electrotechnique.</li>
+                        <li><span class="span-contenu-cv">2011-2013 : </span>BTS SIO Option SISR.</li>
+                        <li><span class="span-contenu-cv">2010-2011 : </span>1ère année de BTS Informatique.</li>
+                        <li><span class="span-contenu-cv">Juin 2010 : </span>Obtention du BAC Pro ELEEC.</li>
+                        <li><span class="span-contenu-cv">Juin 2008 : </span>Obtention du BEP Electrotechnique.</li>
                     </ul>
                 </section>
             </div>
@@ -152,12 +154,11 @@
                 <section class="coordonnees">
                     <h2>COORDONNEES</h2>
                     <ul>
-                        <li>07 81 66 06 79</li>
-                        <li>dvauzelle@deastanceservices.fr</li>
-                        <li>9 BOULEVARD NICEPHORE NIEPCE
-                            RES ALTAIRE ETG3 APPT78
-                            86360 CHASSENEUIL DU POITOU
-                        </li>
+                        <li>Tél : 07 81 66 06 79</li>
+                        <li>e-mail : dvauzelle@deastanceservices.fr</li>
+                        <li>9 BOULEVARD NICEPHORE NIEPCE</li>
+                        <li>RES ALTAIRE ETG3 APPT78</li>
+                        <li>86360 CHASSENEUIL DU POITOU</li> 
                         <li>Permis B</li>
                     </ul>
                 </section>    
