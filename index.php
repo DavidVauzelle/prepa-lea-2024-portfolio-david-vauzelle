@@ -35,8 +35,8 @@
                 <section class="presentation-accueil">
                     <h2>A propos de Moi !</h2>
                     <div class="container-presentation-accueil">
-                        <div class="photo-profil">
-                            <img src="./images/photo-david.jpg" alt="Une photo de profil de David">
+                        <div class="container-photo-profil">
+                            <img class="photo-profil" src="./images/photo-david.jpg" alt="Une photo de profil de David">
                         </div> 
                         <div class="contenu-presentation-accueil">
                             <p>Bonjour, Moi c'est <span>David</span>, j'ai 32 ans et je suis passionné par <span>l'informatique et les jeux vidéo</span>  depuis l'enfance.</p>

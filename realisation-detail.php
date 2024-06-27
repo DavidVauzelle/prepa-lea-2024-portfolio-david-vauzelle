@@ -45,20 +45,20 @@
             }
 
         ?>
-        <section>
-            <div>
+        <div class="container-page-realisation-detail">
+            <section>
                 <?php if (isset($projet)) : ?>
-                    <section>
-                        <article>
-                            <h2><?php echo $projet['titre']; ?></h2>   
-                            <p><?php echo $projet['description-detail']; ?></p>
+                    <article class="realisation">
+                        <h2><?php echo $projet['titre']; ?></h2>   
+                        <p><?php echo $projet['description-detail']; ?></p>
+                        <div>
                             <img src="<?php echo $projet['image']; ?>" 
-                            alt="<?php echo $projet['alt']; ?>">
-                        </article>
-                    </section>
+                            alt="<?php echo $projet['alt']; ?>">    
+                        </div>
+                    </article>
                 <?php endif; ?>          
-            </div>
-        </section>  
+            </section>
+        </div>  
     </main>
 
     <!-- Pour récupérer le footer -->

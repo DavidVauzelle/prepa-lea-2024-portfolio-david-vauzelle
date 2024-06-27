@@ -38,27 +38,28 @@
             // echo '</pre>';
 
         ?>
-        <section>
-            <div>
+        <div class="container-page-realisation">
+            <section>
                 <h1>Mes derniers projets</h1>
                 <?php if (isset($projets)) : ?>
                     
                         <?php foreach($projets as $projet) : ?>
-                            <section>
-                                <article>
+                                <article class="realisation">
                                     <h2><?php echo $projet['titre']; ?></h2>   
                                     <p><?php echo $projet['description-accueil']; ?></p>
-                                    <img src="<?php echo $projet['image']; ?>" 
-                                    alt="<?php echo $projet['alt']; ?>">
-                                    <a href="realisation-detail.php?id=<?php echo $projet['id']; ?>">Détail Réalisation</a>
-                                    <a href="./administration/realisation-liste.php">Admin</a>
+                                    <div class="photo-realisation">
+                                        <img src="<?php echo $projet['image']; ?>" 
+                                        alt="<?php echo $projet['alt']; ?>">    
+                                    </div>
+                                    <a class="btn" href="realisation-detail.php?id=<?php echo $projet['id']; ?>">Détails</a>
+                                    <a class="btn" href="./administration/realisation-liste.php">Admin</a>
                                 </article>
-                            </section>
                         <?php endforeach; ?>
                         
                 <?php endif; ?>          
-            </div>
-        </section>  
+            </section>  
+        </div>
+            
     </main>
 
     <!-- Pour récupérer le footer -->

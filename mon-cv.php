@@ -31,8 +31,8 @@
                     </div>
                     
                     <div class="contenu-2-presentation-cv">
-                        <div class="photo-profil">
-                            <img src="./images/photo-david.jpg" alt="Une photo de profil de David">
+                        <div class="container-photo-profil">
+                            <img class="photo-profil" src="./images/photo-david.jpg" alt="Une photo de profil de David">
                         </div>
                         <div class="bloc-texte-presentation-cv">
                             <div class="texte-presentation-cv">
@@ -53,7 +53,8 @@
                     <ul>
                         <li>Comprendre les Principes du Versioning et Configurer Git</li>
                         <li>Gérer le Code Source et Collaborer avec Git</li>
-                        <li>Maîtriser les Fondamentaux de la Structuration HTML et de la Syntaxe CSS</li>
+                        <li>Maîtriser les Fondamentaux de la Structuration HTML</li>
+                        <li>et de la Syntaxe CSS</li>
                         <li>Découper / Intégrer une Maquette</li>
                         <li>Styliser une Page Web</li>
                         <li>Comprendre les Concepts de Base des Bases de Données</li>

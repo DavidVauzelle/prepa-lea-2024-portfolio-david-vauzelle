@@ -9,3 +9,62 @@ body {
 main {
     padding-top: 55px;
 }
+
+.container-page-realisation, .container-page-realisation-detail {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.realisation  {
+    padding: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h2, p {
+    padding: 25px;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 100px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.photo-realisation {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 10px;
+}
