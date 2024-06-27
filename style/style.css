@@ -23,8 +23,12 @@ body {
     display: flex;
     height: 100vh;
     width: 100%;
-    background-color: #f5f5dc;
+    
     justify-content: center;
+}
+
+.hero-header, .bloc-2 {
+    background-color: #f5f5dc;
 }
 
 .contenu-hero-header {
@@ -111,6 +115,15 @@ img:hover {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.span-blue, .titre-blue {
+    color: blue;
+}
+
+.bloc-1-accueil, .bloc-3-accueil {
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .bloc-2-accueil {
