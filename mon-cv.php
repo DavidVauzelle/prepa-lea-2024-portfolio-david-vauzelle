@@ -49,7 +49,7 @@
             
             <div class="bloc-2-cv">
                 <section class="competences">
-                    <h2>COMPETENCES</h2>
+                    <h2 class="titre-blue">COMPETENCES</h2>
                     <ul>
                         <li>Comprendre les Principes du Versioning et Configurer Git</li>
                         <li>Gérer le Code Source et Collaborer avec Git</li>
@@ -64,7 +64,7 @@
                     </ul>
                 </section>
                 <section class="competences-transversales">
-                    <h2>COMPETENCES TRANSVERSALES</h2>
+                    <h2 class="titre-blue">COMPETENCES TRANSVERSALES</h2>
                     <ul>
                         <li>Compétences en Bureautique et en Informatique</li>
                         <li>Respect des Normes, Consignes et Procédures</li>
@@ -122,7 +122,7 @@
 
             <div class="bloc-4-cv">
                 <section class="savoirs-etre">
-                    <h2>SAVOIRS ETRE</h2>
+                    <h2 class="titre-blue">SAVOIRS ETRE</h2>
                     <ul>
                         <li>Empathie</li>
                         <li>Curiosité</li>
@@ -134,7 +134,7 @@
                     </ul>
                 </section>
                 <section class="scolaire">
-                    <h2>SCOLAIRE</h2>
+                    <h2 class="titre-blue">SCOLAIRE</h2>
                     <ul>
                         <li><span class="span-contenu-cv">2011-2013 : </span>BTS SIO Option SISR.</li>
                         <li><span class="span-contenu-cv">2010-2011 : </span>1ère année de BTS Informatique.</li>

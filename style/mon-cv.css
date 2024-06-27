@@ -86,7 +86,7 @@ img:hover {
     padding: 10px 20px;
     font-size: 20px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #0000ff;
     text-decoration: none;
     border-radius: 10px;
 }
@@ -130,6 +130,10 @@ img:hover {
 .savoirs-etre, .scolaire, .loisirs, .coordonnees {
     padding: 25px;
     text-align: center;
+}
+
+.titre-blue {
+    color: #0000ff;
 }
 
 h2 {
