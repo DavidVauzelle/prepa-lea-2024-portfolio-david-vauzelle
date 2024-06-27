@@ -46,12 +46,12 @@
 
         ?>
         <div class="container-page-realisation-detail">
-            <section>
+            <section class="container-realisation-detail">
                 <?php if (isset($projet)) : ?>
                     <article class="realisation">
                         <h2><?php echo $projet['titre']; ?></h2>   
                         <p><?php echo $projet['description-detail']; ?></p>
-                        <div>
+                        <div class="photo-realisation">
                             <img src="<?php echo $projet['image']; ?>" 
                             alt="<?php echo $projet['alt']; ?>">    
                         </div>

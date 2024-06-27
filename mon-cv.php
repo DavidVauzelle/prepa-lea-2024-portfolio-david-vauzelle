@@ -78,7 +78,7 @@
 
             <div class="bloc-3-cv">
                 <section class="experiences">
-                    <h2>EXPERIENCES</h2>
+                    <h2 class="titre-blue">EXPERIENCES</h2>
                     <div class="contenu-experiences-cv">
                         <h3>DEPUIS LE 18 DECEMBRE 2023</h3>
                         <div>
@@ -146,14 +146,14 @@
 
             <div class="bloc-5-cv">
                 <section class="loisirs">
-                    <h2>LOISIRS</h2>
+                    <h2 class="titre-blue">LOISIRS</h2>
                     <ul>
                         <li>L'Informatique</li>
                         <li>Les Jeux Vidéo</li>
                     </ul>
                 </section>
                 <section class="coordonnees">
-                    <h2>COORDONNEES</h2>
+                    <h2 class="titre-blue">COORDONNEES</h2>
                     <ul>
                         <li>Tél : 07 81 66 06 79</li>
                         <li>e-mail : dvauzelle@deastanceservices.fr</li>
